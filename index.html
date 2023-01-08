@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="background">
+    <div class="d-flex justify-content-center align-items-center text-center">
+        <div>
+            <h1 class="m-5 title-text">PIZZA VS BURGERS</h1>
+            <div class="pizza-v-burgers"></div>
+            <div class="mt-5 d-flex justify-content-between">
+                <div>
+                    <button onclick="increasePizza()" class="neon-button mb-5" id="pizza">Vote for Pizza!</button>
+                    <p>Total votes: <span id="pizza-count">0</span></p>
+                </div>
+                <div>
+                    <button onclick="increaseBurger()" class="neon-button mb-5" id="burger">Vote for Burger!</button>
+                    <p>Total votes: <span id="burger-count">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
